@@ -3,7 +3,7 @@
 # Firstly, let's add some gems to Gemfile ---------------------
 gem_group :development, :test do
   gem 'rspec-rails'
-  gem 'capybara'
+  gem 'capybara', '~> 2.6.2', '>= 2.6.2'
   gem 'factory_girl_rails'
 end
 
